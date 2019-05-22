@@ -27,7 +27,7 @@ def download_stock_codes(market=None, delisted=False):
     return df
 
 kosdaq_stocks = download_stock_codes('kosdaq')
-kosdaq_stocks.head()
+print(kosdaq_stocks.head())
 
 from pandas_datareader import data
 
